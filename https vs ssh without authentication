@@ -4,3 +4,26 @@ https://stackoverflow.com/questions/19702067/pull-from-github-without-authentica
 
 
 Is there a way to generate a certificate or such so that my prod server can pull from my github repo without me authenticating every single time?
+
+
+generate ssh key
+---------------------
+cd ~/.ssh 
+ssh-keygen -t rsa -C "your-email-address"
+touch config
+
+paste in config
+----------------------
+ Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/YOUR_KEY
+  
+paste public key to github deployment key settings
+---------------------------------------------------
+cat YOUR_KEY.pub 
+clip
+
+set remote from http to ssh
+-----------------------------
+git remote set-url origin ssh://git@github.com/USERNAME/REPOSITORY.git
