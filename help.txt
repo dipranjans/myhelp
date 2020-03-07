@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-help me
-=======
 help meadsaddad
->>>>>>> help
