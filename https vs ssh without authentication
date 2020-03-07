@@ -1,0 +1,6 @@
+Pull from github without authentication every time
+
+https://stackoverflow.com/questions/19702067/pull-from-github-without-authentication-every-time
+
+
+Is there a way to generate a certificate or such so that my prod server can pull from my github repo without me authenticating every single time?
