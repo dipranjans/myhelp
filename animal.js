@@ -1,1 +1,0 @@
-console.log('tiger is out national animal');
