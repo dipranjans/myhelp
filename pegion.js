@@ -1,1 +1,1 @@
-alert("i hate pegions is not good for home!!!");
+alert("i hate dog is not good for home!!!");
