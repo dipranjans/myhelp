@@ -1,1 +1,22 @@
 https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
+
+https://syntaxbytetutorials.com/add-a-github-ssh-key-on-windows/
+====================================================================================================================================
+follow the above link for ssh key gen and add it to the SSH keys github
+====================================================================================================================================
+
+step 1: generate ssh key
+$ ssh-keygen -t rsa -b 4096 -C "example@example.com"
+
+step2: use the key
+
+Now that the key is generated, we need to put it to use. Start by starting the ssh agent.
+$ eval $(ssh-agent -s)
+
+Then add the key we just generated. If you selected a different path than the default, be sure to replace that path in the command.
+
+step3: 
+Add the SSH Key on GitHub
+
+
+
